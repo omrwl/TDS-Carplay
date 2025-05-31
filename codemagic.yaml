@@ -4,6 +4,6 @@ workflows:
     environment:
       xcode: latest
     scripts:
-      - xcode-project build-ipa
+      - xcode-project build-ipa --project TDS-Carplay.xcodeproj
     artifacts:
       - build/ios/ipa/*.ipa
