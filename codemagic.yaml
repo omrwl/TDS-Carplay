@@ -4,6 +4,6 @@ workflows:
     environment:
       xcode: latest
     scripts:
-      - xcode-project build-ipa --project "TDS Video.xcodeproj"
+      - xcode-project build-ipa --project "TDS Video.xcodeproj" --export-options-plist exportOptions.plist
     artifacts:
       - build/ios/ipa/*.ipa
