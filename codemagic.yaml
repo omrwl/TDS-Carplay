@@ -3,8 +3,6 @@ workflows:
     name: iOS Build
     environment:
       xcode: latest
-      env:
-        XCODE_PROJECT_PATH: TDS-Carplay.xcodeproj
     scripts:
       - xcode-project
     artifacts:
