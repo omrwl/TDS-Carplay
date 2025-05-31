@@ -4,6 +4,6 @@ workflows:
     environment:
       xcode: latest
     scripts:
-      - xcode-project
+      - xcode-project build-ipa
     artifacts:
       - build/ios/ipa/*.ipa
